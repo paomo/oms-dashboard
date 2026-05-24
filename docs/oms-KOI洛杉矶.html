@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>OMS KOI洛杉矶 — 2026-05-13</title><style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#0d1117; color:#c9d1d9; font-family:-apple-system,BlinkMacSystemFont,sans-serif; padding:20px; max-width:900px; margin:0 auto; }
+h1 { color:#f0f6fc; font-size:22px; margin-bottom:4px; }
+.subtitle { color:#8b949e; font-size:13px; margin-bottom:20px; }
+.back { color:#58a6ff; text-decoration:none; font-size:13px; display:inline-block; margin-bottom:16px; }
+.kpi-row { display:flex; gap:12px; margin-bottom:20px; flex-wrap:wrap; }
+.kpi-card { background:#161b22; border:1px solid #30363d; border-radius:6px; padding:14px 18px; flex:1; min-width:130px; }
+.kpi-value { font-size:26px; font-weight:700; color:#58a6ff; }
+.kpi-label { font-size:12px; color:#8b949e; margin-top:4px; }
+.section-title { font-size:14px; color:#8b949e; margin:20px 0 10px; }
+table { width:100%; border-collapse:collapse; font-size:13px; margin-bottom:20px; }
+th { text-align:left; color:#8b949e; padding:6px 8px; border-bottom:1px solid #30363d; font-weight:600; }
+td { padding:6px 8px; border-bottom:1px solid #21262d; }
+.num { text-align:right; }
+.days { font-weight:600; }
+.bar-chart { display:flex; align-items:flex-end; gap:4px; height:110px; margin-bottom:24px; }
+.bar-col { display:flex; flex-direction:column; align-items:center; flex:1; }
+.bar-value { font-size:10px; color:#8b949e; margin-bottom:2px; }
+.bar { width:100%; min-width:10px; border-radius:2px 2px 0 0; }
+.bar-date { font-size:9px; color:#484f58; margin-top:4px; transform:rotate(-45deg); white-space:nowrap; }
+.ch-row { display:flex; align-items:center; gap:8px; margin-bottom:6px; }
+.ch-name { width:180px; color:#8b949e; font-size:12px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.ch-bar-bg { flex:1; height:8px; background:#21262d; border-radius:4px; overflow:hidden; }
+.ch-bar { height:100%; background:#3fb950; border-radius:4px; }
+.ch-cnt { width:50px; text-align:right; color:#c9d1d9; font-size:12px; }
+.index-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; margin-top:20px; }
+.index-card { background:#161b22; border:1px solid #30363d; border-radius:8px; padding:16px; text-decoration:none; color:#c9d1d9; transition:border-color .2s; }
+.index-card:hover { border-color:#58a6ff; }
+.index-card h3 { font-size:16px; color:#58a6ff; margin-bottom:8px; }
+.index-card .stat { font-size:13px; color:#8b949e; }
+.index-card .stat b { color:#c9d1d9; }
+.index-warn { background:#161b22; border:1px solid #d29922; }
+.index-warn h3 { color:#d29922; }
+</style></head>
+<body>
+<a class="back" href="oms-dashboard.html">← 返回总览</a>
+<h1>📦 OMS KOI洛杉矶</h1>
+<p class="subtitle">库存快照: 2026-05-13 | 异常峰值日(05-06,05-09)已剔除</p>
+<div class="kpi-row">
+      <div class="kpi-card"><div class="kpi-value">1,663</div><div class="kpi-label">总库存</div></div>
+      <div class="kpi-card"><div class="kpi-value">33</div><div class="kpi-label">SKU数</div></div>
+      <div class="kpi-card"><div class="kpi-value">31.0</div><div class="kpi-label">7日均出库</div></div>
+      <div class="kpi-card"><div class="kpi-value">4,029</div><div class="kpi-label">历史出库记录</div></div>
+    </div><h3 class="section-title">📦 SKU库存天数</h3>
+    <table><thead><tr><th>SKU</th><th>库存</th><th>日均出库</th><th>可用天数</th></tr></thead><tbody><tr><td>92005-BAIJIAN-8PCS</td><td class="num">24</td><td class="num">2.5</td><td class="days" style="color:#d29922">🟡 9.6天</td></tr><tr><td>92005-138</td><td class="num">23</td><td class="num">1.8</td><td class="days" style="color:#d29922">🟡 12.5天</td></tr><tr><td>92005-015</td><td class="num">217</td><td class="num">14.7</td><td class="days" style="color:#d29922">🟡 14.8天</td></tr><tr><td>92005-005</td><td class="num">5</td><td class="num">0.2</td><td class="days" style="color:#3fb950">✅ 30.0天</td></tr><tr><td>92005-121</td><td class="num">36</td><td class="num">1.2</td><td class="days" style="color:#3fb950">✅ 30.9天</td></tr><tr><td>Y109</td><td class="num">54</td><td class="num">1.3</td><td class="days" style="color:#3fb950">✅ 40.5天</td></tr><tr><td>Y1081</td><td class="num">7</td><td class="num">0.2</td><td class="days" style="color:#3fb950">✅ 42.0天</td></tr><tr><td>Y1091</td><td class="num">49</td><td class="num">1.2</td><td class="days" style="color:#3fb950">✅ 42.0天</td></tr><tr><td>Y1061</td><td class="num">8</td><td class="num">0.2</td><td class="days" style="color:#3fb950">✅ 48.0天</td></tr><tr><td>92005-122</td><td class="num">57</td><td class="num">1.2</td><td class="days" style="color:#3fb950">✅ 48.9天</td></tr><tr><td>Y106</td><td class="num">136</td><td class="num">2.3</td><td class="days" style="color:#3fb950">✅ 58.3天</td></tr><tr><td>92005-MDS-2pcs</td><td class="num">93</td><td class="num">1.2</td><td class="days" style="color:#3fb950">✅ 79.7天</td></tr></tbody></table><h3 class="section-title">📊 14日出库趋势</h3><div class="bar-chart"><div class="bar-col"><div class="bar-value">72</div><div class="bar" style="height:38px;background:#58a6ff"></div><div class="bar-date">04-30</div></div><div class="bar-col"><div class="bar-value">56</div><div class="bar" style="height:29px;background:#58a6ff"></div><div class="bar-date">05-01</div></div><div class="bar-col"><div class="bar-value">96</div><div class="bar" style="height:51px;background:#58a6ff"></div><div class="bar-date">05-02</div></div><div class="bar-col"><div class="bar-value">5</div><div class="bar" style="height:2px;background:#58a6ff"></div><div class="bar-date">05-03</div></div><div class="bar-col"><div class="bar-value">150</div><div class="bar" style="height:80px;background:#58a6ff"></div><div class="bar-date">05-04</div></div><div class="bar-col"><div class="bar-value">105</div><div class="bar" style="height:56px;background:#58a6ff"></div><div class="bar-date">05-05</div></div><div class="bar-col"><div class="bar-value">40</div><div class="bar" style="height:21px;background:#f85149"></div><div class="bar-date">05-06</div></div><div class="bar-col"><div class="bar-value">55</div><div class="bar" style="height:29px;background:#58a6ff"></div><div class="bar-date">05-07</div></div><div class="bar-col"><div class="bar-value">98</div><div class="bar" style="height:52px;background:#58a6ff"></div><div class="bar-date">05-08</div></div><div class="bar-col"><div class="bar-value">0</div><div class="bar" style="height:0px;background:#f85149"></div><div class="bar-date">05-09</div></div><div class="bar-col"><div class="bar-value">12</div><div class="bar" style="height:6px;background:#58a6ff"></div><div class="bar-date">05-10</div></div><div class="bar-col"><div class="bar-value">10</div><div class="bar" style="height:5px;background:#58a6ff"></div><div class="bar-date">05-11</div></div><div class="bar-col"><div class="bar-value">11</div><div class="bar" style="height:5px;background:#58a6ff"></div><div class="bar-date">05-12</div></div><div class="bar-col"><div class="bar-value">0</div><div class="bar" style="height:0px;background:#58a6ff"></div><div class="bar-date">05-13</div></div></div><h3 class="section-title">🚚 物流渠道 TOP</h3><div class="ch-row"><span class="ch-name">TemuUSPS</span><span class="ch-bar-bg"><span class="ch-bar" style="width:100%"></span></span><span class="ch-cnt">3,402</span></div><div class="ch-row"><span class="ch-name">temu-CBT</span><span class="ch-bar-bg"><span class="ch-bar" style="width:6%"></span></span><span class="ch-cnt">235</span></div><div class="ch-row"><span class="ch-name">Upload_Shipping_Label</span><span class="ch-bar-bg"><span class="ch-bar" style="width:5%"></span></span><span class="ch-cnt">186</span></div><div class="ch-row"><span class="ch-name">temuSpeedX</span><span class="ch-bar-bg"><span class="ch-bar" style="width:4%"></span></span><span class="ch-cnt">141</span></div><div class="ch-row"><span class="ch-name">temuSwift</span><span class="ch-bar-bg"><span class="ch-bar" style="width:1%"></span></span><span class="ch-cnt">37</span></div><div class="ch-row"><span class="ch-name">TemuGOFO</span><span class="ch-bar-bg"><span class="ch-bar" style="width:0%"></span></span><span class="ch-cnt">18</span></div>
+</body></html>
